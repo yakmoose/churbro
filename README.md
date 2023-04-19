@@ -6,7 +6,9 @@ The key purpose for implementing such a shitty thing was to test out the push no
 There is a manifest file that allows you to add to your iOS home screen allowing for iOS 16.4 and newer to accept push notifications.
 
 ## How to use
-Install the packages, make some vapid keys and pray. This is so awful, I'm not even going to bother telling you how to use it.
+Install the packages, make some vapid keys and pray. This is so awful, I'm not even going to bother telling you how to use it. 
+Don't even think of using this in production as it sends in a single thread in batches. There is no worker queue or backgrounding/asyncing or fan out, so for
+more than a few users it will take a long time to send the notifications out. You should just pay and use a service.
 
 ## What on earth does Chur mean?
 The AI says - "Chur is a slang word used in New Zealand. It is a shortened version of the word "cheers" and is used to express gratitude or appreciation."
