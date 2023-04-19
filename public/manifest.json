@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "Chur Bro!",
+  "short_name": "Chur Bro!",
+  "start_url": "https://www.churb.ro",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Chur to your mates!",
+  "icons": [{
+    "src": "https://www.churb.ro/thumb.svg",
+    "sizes": "512x512"
+  }]
+}
